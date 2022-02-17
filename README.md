@@ -73,3 +73,7 @@ const data = axios.get('https://password-api.sanchogodinho.repl.co/lengthOfPassw
     }
 });
 ```
+
+<br>
+
+**Note: The lengthOfPassword Should Be Replaced With A Number That You Choose The Length Of The Password.**
