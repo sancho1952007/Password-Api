@@ -15,5 +15,19 @@ else:
     print(password)
 ```
 
+<br>
+
 ***HTML***
+```html
+<script>
+    fetch('https://password-api.sanchogodinho.repl.co/lengthOfPassword').then(res => res.json()).then(data => {
+        if ('error' in data){
+            console.log(data.error)
+        }
+        else{
+            password = data.password;
+            console.log(password);
+        }
+    });
+</script>
 ```
